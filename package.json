@@ -1,0 +1,29 @@
+{
+  "name": "my-dictionary",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "start": "npm run build && electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ilya-skoropad/my-dictionary.git"
+  },
+  "keywords": [],
+  "author": "ilya-skoropad",
+  "license": "MIT License",
+  "bugs": {
+    "url": "https://github.com/ilya-skoropad/my-dictionary/issues"
+  },
+  "homepage": "https://github.com/ilya-skoropad/my-dictionary#readme",
+  "dependencies": {
+    "electron": "^20.1.0",
+    "typescript": "^4.7.4"
+  },
+  "devDependencies": {
+    "@types/electron": "^1.6.10"
+  }
+}
